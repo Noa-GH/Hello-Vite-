@@ -1,0 +1,10 @@
+.animal-image {
+  width: 280px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+
+  margin: 0 auto;
+  padding: 0;
+  gap: 10px;
+}
