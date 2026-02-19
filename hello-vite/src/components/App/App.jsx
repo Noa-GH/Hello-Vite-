@@ -1,8 +1,8 @@
-import Header from ".components/header/header";
-import Footer from ".components/footer/footer";
-import Main from ".src/components/main/main";
-import ".components/App/App.css";
-
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import Main from "../main/Main";
+import "./App.css";
+// This is the main App component that combines the Header, Main, and Footer components to create the structure of the application.
 function App() {
   return (
     <>
