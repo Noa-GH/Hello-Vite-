@@ -1,10 +1,14 @@
-import "./App.css";
+import Header from ".components/header/header";
+import Footer from ".components/footer/footer";
+import Main from ".src/components/main/main";
+import ".components/App/App.css";
 
 function App() {
   return (
     <>
-      <h1>Hello Vite!</h1>
-      <p>Welcome to your new Vite project!</p>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
